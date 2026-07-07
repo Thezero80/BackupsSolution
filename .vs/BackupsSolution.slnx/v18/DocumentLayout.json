@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{62F88702-CAA3-4B06-3B08-3409EF2520F6}|src\\Backups.Adapters.UI.WinForms\\Backups.Adapters.UI.WinForms.csproj|c:\\users\\hubel\\source\\repos\\backupssolution\\src\\backups.adapters.ui.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{62F88702-CAA3-4B06-3B08-3409EF2520F6}|src\\Backups.Adapters.UI.WinForms\\Backups.Adapters.UI.WinForms.csproj|solutionrelative:src\\backups.adapters.ui.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62F88702-CAA3-4B06-3B08-3409EF2520F6}|src\\Backups.Adapters.UI.WinForms\\Backups.Adapters.UI.WinForms.csproj|c:\\users\\hubel\\source\\repos\\backupssolution\\src\\backups.adapters.ui.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62F88702-CAA3-4B06-3B08-3409EF2520F6}|src\\Backups.Adapters.UI.WinForms\\Backups.Adapters.UI.WinForms.csproj|solutionrelative:src\\backups.adapters.ui.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.UI.WinForms\\Form1.cs",
+              "RelativeDocumentMoniker": "src\\Backups.Adapters.UI.WinForms\\Form1.cs",
+              "ToolTip": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.UI.WinForms\\Form1.cs",
+              "RelativeToolTip": "src\\Backups.Adapters.UI.WinForms\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T02:43:08.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

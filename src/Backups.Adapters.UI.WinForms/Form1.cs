@@ -6,4 +6,9 @@ public partial class Form1 : Form
     {
         InitializeComponent();
     }
+
+    private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+    {
+
+    }
 }
