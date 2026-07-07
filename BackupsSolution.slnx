@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Backups.Adapters.Infrastructure/Backups.Adapters.Infrastructure.csproj" />
+    <Project Path="src/Backups.Adapters.UI.WinForms/Backups.Adapters.UI.WinForms.csproj" />
+    <Project Path="src/Backups.Domain/Backups.Domain.csproj" />
+    <Project Path="src/Backups.Ports/Backups.Ports.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Backups.Adapters.Tests/Backups.Adapters.Tests.csproj" />
+    <Project Path="tests/Backups.Domain.Tests/Backups.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
