@@ -1,0 +1,16 @@
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\bin\Debug\net10.0\Backups.Infrastructure.Compression.deps.json
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\bin\Debug\net10.0\Backups.Infrastructure.Compression.dll
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\bin\Debug\net10.0\Backups.Infrastructure.Compression.pdb
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\bin\Debug\net10.0\Backups.Core.dll
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\bin\Debug\net10.0\Backups.Core.pdb
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\Backups.Infrastructure.Compression.csproj.AssemblyReference.cache
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\Backups.Infrastructure.Compression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\Backups.Infrastructure.Compression.AssemblyInfoInputs.cache
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\Backups.Infrastructure.Compression.AssemblyInfo.cs
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\Backups.Infrastructure.Compression.csproj.CoreCompileInputs.cache
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\Backups.Infrastructure.Compression.sourcelink.json
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\Backups..B59D116B.Up2Date
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\Backups.Infrastructure.Compression.dll
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\refint\Backups.Infrastructure.Compression.dll
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\Backups.Infrastructure.Compression.pdb
+C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Infrastructure.Compression\obj\Debug\net10.0\ref\Backups.Infrastructure.Compression.dll

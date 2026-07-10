@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Backups.Infrastructure.Compression/1.0.0": {
+        "dependencies": {
+          "Backups.Core": "1.0.0"
+        },
+        "runtime": {
+          "Backups.Infrastructure.Compression.dll": {}
+        }
+      },
+      "Backups.Core/1.0.0": {
+        "runtime": {
+          "Backups.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Backups.Infrastructure.Compression/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Backups.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

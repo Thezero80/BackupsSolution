@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Backups.UI/1.0.0": {
+        "dependencies": {
+          "Backups.Core": "1.0.0",
+          "Backups.Infrastructure.Compression": "1.0.0",
+          "Backups.Infrastructure.Network": "1.0.0"
+        },
+        "runtime": {
+          "Backups.UI.dll": {}
+        }
+      },
+      "Backups.Core/1.0.0": {
+        "runtime": {
+          "Backups.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Backups.Infrastructure.Compression/1.0.0": {
+        "dependencies": {
+          "Backups.Core": "1.0.0"
+        },
+        "runtime": {
+          "Backups.Infrastructure.Compression.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Backups.Infrastructure.Network/1.0.0": {
+        "dependencies": {
+          "Backups.Core": "1.0.0"
+        },
+        "runtime": {
+          "Backups.Infrastructure.Network.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Backups.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Backups.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Backups.Infrastructure.Compression/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Backups.Infrastructure.Network/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
