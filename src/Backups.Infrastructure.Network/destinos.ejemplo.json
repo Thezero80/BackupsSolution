@@ -1,0 +1,9 @@
+{
+  "ftp_servidor_1": {
+    "Host": "ftp.ejemplo.com",
+    "Puerto": 21,
+    "Usuario": "admin",
+    "Contrasena": "cambiar-esta-contrasena",
+    "RutaRemota": "/backups/"
+  }
+}

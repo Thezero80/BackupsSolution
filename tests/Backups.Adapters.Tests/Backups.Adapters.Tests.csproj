@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Backups.Adapters.Infrastructure\Backups.Adapters.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Backups.Infrastructure.Network\Backups.Infrastructure.Network.csproj" />
   </ItemGroup>
 
 </Project>
