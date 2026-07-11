@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "Backups.Core/1.0.0": {
@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hubel\\.nuget\\packages\\": {}
+    "C:\\Users\\julia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Infrastructure.Compression\\Backups.Infrastructure.Compression.csproj",
+      "projectUniqueName": "E:\\base\\BackupsSolution - copia\\src\\Backups.Infrastructure.Compression\\Backups.Infrastructure.Compression.csproj",
       "projectName": "Backups.Infrastructure.Compression",
-      "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Infrastructure.Compression\\Backups.Infrastructure.Compression.csproj",
-      "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Infrastructure.Compression\\obj\\",
+      "projectPath": "E:\\base\\BackupsSolution - copia\\src\\Backups.Infrastructure.Compression\\Backups.Infrastructure.Compression.csproj",
+      "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+      "outputPath": "E:\\base\\BackupsSolution - copia\\src\\Backups.Infrastructure.Compression\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,11 +51,10 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj": {
-              "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj"
+            "E:\\base\\BackupsSolution - copia\\src\\Backups.Core\\Backups.Core.csproj": {
+              "projectPath": "E:\\base\\BackupsSolution - copia\\src\\Backups.Core\\Backups.Core.csproj"
             }
           }
         }
@@ -70,11 +69,10 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "imports": [
           "net461",
@@ -92,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

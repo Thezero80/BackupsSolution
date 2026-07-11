@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "+qcIH6y8Sk4=",
+  "dgSpecHash": "zbnVl4Bf8fQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.UI\\Backups.UI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\base\\BackupsSolution - copia\\src\\Backups.UI\\Backups.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\fluentftp\\54.2.0\\fluentftp.54.2.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\ssh.net\\2025.1.0\\ssh.net.2025.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

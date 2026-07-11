@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj": {}
+    "E:\\base\\BackupsSolution - copia\\src\\Backups.Core\\Backups.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj": {
+    "E:\\base\\BackupsSolution - copia\\src\\Backups.Core\\Backups.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj",
+        "projectUniqueName": "E:\\base\\BackupsSolution - copia\\src\\Backups.Core\\Backups.Core.csproj",
         "projectName": "Backups.Core",
-        "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj",
-        "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Core\\obj\\",
+        "projectPath": "E:\\base\\BackupsSolution - copia\\src\\Backups.Core\\Backups.Core.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "E:\\base\\BackupsSolution - copia\\src\\Backups.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -41,11 +40,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

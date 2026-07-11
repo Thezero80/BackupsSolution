@@ -1,0 +1,18 @@
+{
+  "ftp_servidor_1": {
+    "protocolo": "FTP",
+    "host": "ftp.ejemplo.com",
+    "puerto": 21,
+    "usuario": "admin",
+    "contrasena": "changeme",
+    "rutaRemota": "/backups/"
+  },
+  "sftp_servidor_1": {
+    "protocolo": "SFTP",
+    "host": "sftp.ejemplo.com",
+    "puerto": 22,
+    "usuario": "admin",
+    "contrasena": "changeme",
+    "rutaRemota": "/backups/"
+  }
+}

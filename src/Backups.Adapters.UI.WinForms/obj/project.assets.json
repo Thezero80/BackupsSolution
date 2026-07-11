@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
-    "net10.0-windows": {
+    "net10.0-windows7.0": {
       "Backups.Adapters.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -58,25 +58,25 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net10.0-windows": [
+    "net10.0-windows7.0": [
       "Backups.Adapters.Infrastructure >= 1.0.0",
       "Backups.Ports >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hubel\\.nuget\\packages\\": {}
+    "C:\\Users\\julia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.UI.WinForms\\Backups.Adapters.UI.WinForms.csproj",
+      "projectUniqueName": "E:\\base\\BackupsSolution - copia\\src\\Backups.Adapters.UI.WinForms\\Backups.Adapters.UI.WinForms.csproj",
       "projectName": "Backups.Adapters.UI.WinForms",
-      "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.UI.WinForms\\Backups.Adapters.UI.WinForms.csproj",
-      "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.UI.WinForms\\obj\\",
+      "projectPath": "E:\\base\\BackupsSolution - copia\\src\\Backups.Adapters.UI.WinForms\\Backups.Adapters.UI.WinForms.csproj",
+      "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+      "outputPath": "E:\\base\\BackupsSolution - copia\\src\\Backups.Adapters.UI.WinForms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -87,15 +87,14 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0-windows": {
-          "framework": "net10.0-windows7.0",
+        "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj"
+            "E:\\base\\BackupsSolution - copia\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj": {
+              "projectPath": "E:\\base\\BackupsSolution - copia\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj"
             },
-            "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj": {
-              "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj"
+            "E:\\base\\BackupsSolution - copia\\src\\Backups.Ports\\Backups.Ports.csproj": {
+              "projectPath": "E:\\base\\BackupsSolution - copia\\src\\Backups.Ports\\Backups.Ports.csproj"
             }
           }
         }
@@ -110,11 +109,10 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
-      "net10.0-windows": {
-        "framework": "net10.0-windows7.0",
+      "net10.0-windows7.0": {
         "targetAlias": "net10.0-windows",
         "imports": [
           "net461",
@@ -135,7 +133,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

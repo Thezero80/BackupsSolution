@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Backups.Infrastructure.Network")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24e3ba5b692a240c42628402b413abe192329fa8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca78928b051c91b3290e469b87acac45beb6e3c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Backups.Infrastructure.Network")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Backups.Infrastructure.Network")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

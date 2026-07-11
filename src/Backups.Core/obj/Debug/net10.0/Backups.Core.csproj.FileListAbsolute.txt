@@ -10,3 +10,39 @@ C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\B
 C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\refint\Backups.Core.dll
 C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.pdb
 C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\ref\Backups.Core.dll
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\bin\Debug\net10.0\Backups.Core.deps.json
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\bin\Debug\net10.0\Backups.Core.dll
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\bin\Debug\net10.0\Backups.Core.pdb
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.AssemblyInfoInputs.cache
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.AssemblyInfo.cs
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.csproj.CoreCompileInputs.cache
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.sourcelink.json
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.dll
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\refint\Backups.Core.dll
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.pdb
+E:\BackupsSolution\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\ref\Backups.Core.dll
+E:\base\BackupsSolution\src\Backups.Core\bin\Debug\net10.0\Backups.Core.deps.json
+E:\base\BackupsSolution\src\Backups.Core\bin\Debug\net10.0\Backups.Core.dll
+E:\base\BackupsSolution\src\Backups.Core\bin\Debug\net10.0\Backups.Core.pdb
+E:\base\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\base\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.AssemblyInfoInputs.cache
+E:\base\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.AssemblyInfo.cs
+E:\base\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.csproj.CoreCompileInputs.cache
+E:\base\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.sourcelink.json
+E:\base\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.dll
+E:\base\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\refint\Backups.Core.dll
+E:\base\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\Backups.Core.pdb
+E:\base\BackupsSolution\src\Backups.Core\obj\Debug\net10.0\ref\Backups.Core.dll
+E:\base\BackupsSolution - copia\src\Backups.Core\bin\Debug\net10.0\Backups.Core.deps.json
+E:\base\BackupsSolution - copia\src\Backups.Core\bin\Debug\net10.0\Backups.Core.dll
+E:\base\BackupsSolution - copia\src\Backups.Core\bin\Debug\net10.0\Backups.Core.pdb
+E:\base\BackupsSolution - copia\src\Backups.Core\obj\Debug\net10.0\Backups.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\base\BackupsSolution - copia\src\Backups.Core\obj\Debug\net10.0\Backups.Core.AssemblyInfoInputs.cache
+E:\base\BackupsSolution - copia\src\Backups.Core\obj\Debug\net10.0\Backups.Core.AssemblyInfo.cs
+E:\base\BackupsSolution - copia\src\Backups.Core\obj\Debug\net10.0\Backups.Core.csproj.CoreCompileInputs.cache
+E:\base\BackupsSolution - copia\src\Backups.Core\obj\Debug\net10.0\Backups.Core.sourcelink.json
+E:\base\BackupsSolution - copia\src\Backups.Core\obj\Debug\net10.0\Backups.Core.dll
+E:\base\BackupsSolution - copia\src\Backups.Core\obj\Debug\net10.0\refint\Backups.Core.dll
+E:\base\BackupsSolution - copia\src\Backups.Core\obj\Debug\net10.0\Backups.Core.pdb
+E:\base\BackupsSolution - copia\src\Backups.Core\obj\Debug\net10.0\ref\Backups.Core.dll
