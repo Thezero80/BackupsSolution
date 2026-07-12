@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Backups.Adapters.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e86a3a9c4de42b2c0075fe3a99b641156f81fb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca78928b051c91b3290e469b87acac45beb6e3c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Backups.Adapters.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Backups.Adapters.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

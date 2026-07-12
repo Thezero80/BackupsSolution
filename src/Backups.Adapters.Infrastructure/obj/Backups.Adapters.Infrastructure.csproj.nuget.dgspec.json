@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj",
         "projectName": "Backups.Adapters.Infrastructure",
-        "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj": {
-                "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj"
               }
             }
           }
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -345,17 +345,17 @@
         }
       }
     },
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
         "projectName": "Backups.Domain",
-        "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -382,7 +382,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -404,7 +404,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -682,17 +682,17 @@
         }
       }
     },
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj",
         "projectName": "Backups.Ports",
-        "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj",
-        "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Ports\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -707,8 +707,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Checya\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj"
               }
             }
           }
@@ -723,7 +723,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -745,7 +745,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -28,3 +28,51 @@ C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\
 C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\refint\Backups.Ports.dll
 C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.pdb
 C:\Users\Hubel\source\repos\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\ref\Backups.Ports.dll
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Ports.deps.json
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Ports.dll
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Ports.pdb
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Domain.dll
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Domain.pdb
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.csproj.AssemblyReference.cache
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.GeneratedMSBuildEditorConfig.editorconfig
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.AssemblyInfoInputs.cache
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.AssemblyInfo.cs
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.csproj.CoreCompileInputs.cache
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.sourcelink.json
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups..5DD0F8C2.Up2Date
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.dll
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\refint\Backups.Ports.dll
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.pdb
+E:\BackupsSolution\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\ref\Backups.Ports.dll
+E:\base\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Ports.deps.json
+E:\base\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Ports.dll
+E:\base\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Ports.pdb
+E:\base\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Domain.dll
+E:\base\BackupsSolution\src\Backups.Ports\bin\Debug\net10.0\Backups.Domain.pdb
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.csproj.AssemblyReference.cache
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.GeneratedMSBuildEditorConfig.editorconfig
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.AssemblyInfoInputs.cache
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.AssemblyInfo.cs
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.csproj.CoreCompileInputs.cache
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.sourcelink.json
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups..5DD0F8C2.Up2Date
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.dll
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\refint\Backups.Ports.dll
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.pdb
+E:\base\BackupsSolution\src\Backups.Ports\obj\Debug\net10.0\ref\Backups.Ports.dll
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\bin\Debug\net10.0\Backups.Ports.deps.json
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\bin\Debug\net10.0\Backups.Ports.dll
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\bin\Debug\net10.0\Backups.Ports.pdb
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\bin\Debug\net10.0\Backups.Domain.dll
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\bin\Debug\net10.0\Backups.Domain.pdb
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.sourcelink.json
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\Backups..5DD0F8C2.Up2Date
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.dll
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\refint\Backups.Ports.dll
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\Backups.Ports.pdb
+C:\Users\Usuario\Desktop\Motor de Compresion\BackupsSolution - copia\src\Backups.Ports\obj\Debug\net10.0\ref\Backups.Ports.dll

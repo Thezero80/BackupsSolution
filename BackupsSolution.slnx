@@ -2,11 +2,16 @@
   <Folder Name="/src/">
     <Project Path="src/Backups.Adapters.Infrastructure/Backups.Adapters.Infrastructure.csproj" />
     <Project Path="src/Backups.Adapters.UI.WinForms/Backups.Adapters.UI.WinForms.csproj" />
+    <Project Path="src/Backups.Core/Backups.Core.csproj" />
     <Project Path="src/Backups.Domain/Backups.Domain.csproj" />
+    <Project Path="src/Backups.Infrastructure.Compression/Backups.Infrastructure.Compression.csproj" />
+    <Project Path="src/Backups.Infrastructure.Network/Backups.Infrastructure.Network.csproj" />
     <Project Path="src/Backups.Ports/Backups.Ports.csproj" />
+    <Project Path="src/Backups.UI/Backups.UI.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/Backups.Adapters.Tests/Backups.Adapters.Tests.csproj" />
     <Project Path="tests/Backups.Domain.Tests/Backups.Domain.Tests.csproj" />
+    <Project Path="tests/Backups.Infrastructure.Compression.Tests/Backups.Infrastructure.Compression.Tests.csproj" />
   </Folder>
 </Solution>
