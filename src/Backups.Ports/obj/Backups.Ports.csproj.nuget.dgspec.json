@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj": {}
+    "E:\\base\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
+    "E:\\base\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
+        "projectUniqueName": "E:\\base\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
         "projectName": "Backups.Domain",
-        "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\obj\\",
+        "projectPath": "E:\\base\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "E:\\base\\BackupsSolution\\src\\Backups.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -41,11 +40,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -341,17 +339,17 @@
         }
       }
     },
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj": {
+    "E:\\base\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj",
+        "projectUniqueName": "E:\\base\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj",
         "projectName": "Backups.Ports",
-        "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj",
-        "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Ports\\obj\\",
+        "projectPath": "E:\\base\\BackupsSolution\\src\\Backups.Ports\\Backups.Ports.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "E:\\base\\BackupsSolution\\src\\Backups.Ports\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -363,11 +361,10 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj"
+              "E:\\base\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
+                "projectPath": "E:\\base\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj"
               }
             }
           }
@@ -382,11 +379,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -404,7 +400,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

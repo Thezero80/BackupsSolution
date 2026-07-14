@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj": {}
+    "E:\\base\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
+    "E:\\base\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
-        "projectName": "Backups.Domain",
-        "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\obj\\",
+        "projectUniqueName": "E:\\base\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj",
+        "projectName": "Backups.Core",
+        "projectPath": "E:\\base\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "E:\\base\\BackupsSolution\\src\\Backups.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -41,11 +40,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -341,17 +339,17 @@
         }
       }
     },
-    "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj": {
+    "E:\\base\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj",
+        "projectUniqueName": "E:\\base\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj",
         "projectName": "Backups.Domain.Tests",
-        "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj",
-        "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Domain.Tests\\obj\\",
+        "projectPath": "E:\\base\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "E:\\base\\BackupsSolution\\tests\\Backups.Domain.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -363,11 +361,10 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj"
+              "E:\\base\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj": {
+                "projectPath": "E:\\base\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj"
               }
             }
           }
@@ -382,16 +379,19 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.1, )"
+            },
+            "NetArchTest.Rules": {
+              "target": "Package",
+              "version": "[1.3.2, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -422,7 +422,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

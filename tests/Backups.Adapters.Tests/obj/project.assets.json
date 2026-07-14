@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "coverlet.collector/6.0.4": {
@@ -394,40 +394,40 @@
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Backups.Adapters.Infrastructure/1.0.0": {
+      "Backups.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Backups.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backups.Core.dll": {}
+        }
+      },
+      "Backups.Infrastructure.Compression/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Backups.Ports": "1.0.0"
+          "Backups.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Backups.Adapters.Infrastructure.dll": {}
+          "bin/placeholder/Backups.Infrastructure.Compression.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Backups.Adapters.Infrastructure.dll": {}
+          "bin/placeholder/Backups.Infrastructure.Compression.dll": {}
         }
       },
-      "Backups.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Backups.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Backups.Domain.dll": {}
-        }
-      },
-      "Backups.Ports/1.0.0": {
+      "Backups.Infrastructure.Network/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Backups.Domain": "1.0.0"
+          "Backups.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Backups.Ports.dll": {}
+          "bin/placeholder/Backups.Infrastructure.Network.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Backups.Ports.dll": {}
+          "bin/placeholder/Backups.Infrastructure.Network.dll": {}
         }
       }
     }
@@ -940,25 +940,27 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Backups.Adapters.Infrastructure/1.0.0": {
+    "Backups.Core/1.0.0": {
       "type": "project",
-      "path": "../../src/Backups.Adapters.Infrastructure/Backups.Adapters.Infrastructure.csproj",
-      "msbuildProject": "../../src/Backups.Adapters.Infrastructure/Backups.Adapters.Infrastructure.csproj"
+      "path": "../../src/Backups.Core/Backups.Core.csproj",
+      "msbuildProject": "../../src/Backups.Core/Backups.Core.csproj"
     },
-    "Backups.Domain/1.0.0": {
+    "Backups.Infrastructure.Compression/1.0.0": {
       "type": "project",
-      "path": "../../src/Backups.Domain/Backups.Domain.csproj",
-      "msbuildProject": "../../src/Backups.Domain/Backups.Domain.csproj"
+      "path": "../../src/Backups.Infrastructure.Compression/Backups.Infrastructure.Compression.csproj",
+      "msbuildProject": "../../src/Backups.Infrastructure.Compression/Backups.Infrastructure.Compression.csproj"
     },
-    "Backups.Ports/1.0.0": {
+    "Backups.Infrastructure.Network/1.0.0": {
       "type": "project",
-      "path": "../../src/Backups.Ports/Backups.Ports.csproj",
-      "msbuildProject": "../../src/Backups.Ports/Backups.Ports.csproj"
+      "path": "../../src/Backups.Infrastructure.Network/Backups.Infrastructure.Network.csproj",
+      "msbuildProject": "../../src/Backups.Infrastructure.Network/Backups.Infrastructure.Network.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Backups.Adapters.Infrastructure >= 1.0.0",
+      "Backups.Core >= 1.0.0",
+      "Backups.Infrastructure.Compression >= 1.0.0",
+      "Backups.Infrastructure.Network >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
@@ -966,19 +968,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hubel\\.nuget\\packages\\": {}
+    "C:\\Users\\julia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Adapters.Tests\\Backups.Adapters.Tests.csproj",
+      "projectUniqueName": "E:\\base\\BackupsSolution\\tests\\Backups.Adapters.Tests\\Backups.Adapters.Tests.csproj",
       "projectName": "Backups.Adapters.Tests",
-      "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Adapters.Tests\\Backups.Adapters.Tests.csproj",
-      "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Adapters.Tests\\obj\\",
+      "projectPath": "E:\\base\\BackupsSolution\\tests\\Backups.Adapters.Tests\\Backups.Adapters.Tests.csproj",
+      "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+      "outputPath": "E:\\base\\BackupsSolution\\tests\\Backups.Adapters.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -990,11 +992,16 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Adapters.Infrastructure\\Backups.Adapters.Infrastructure.csproj"
+            "E:\\base\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj": {
+              "projectPath": "E:\\base\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj"
+            },
+            "E:\\base\\BackupsSolution\\src\\Backups.Infrastructure.Compression\\Backups.Infrastructure.Compression.csproj": {
+              "projectPath": "E:\\base\\BackupsSolution\\src\\Backups.Infrastructure.Compression\\Backups.Infrastructure.Compression.csproj"
+            },
+            "E:\\base\\BackupsSolution\\src\\Backups.Infrastructure.Network\\Backups.Infrastructure.Network.csproj": {
+              "projectPath": "E:\\base\\BackupsSolution\\src\\Backups.Infrastructure.Network\\Backups.Infrastructure.Network.csproj"
             }
           }
         }
@@ -1009,11 +1016,10 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
@@ -1049,7 +1055,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

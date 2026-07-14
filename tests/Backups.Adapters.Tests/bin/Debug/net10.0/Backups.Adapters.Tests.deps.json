@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v10.0": {
       "Backups.Adapters.Tests/1.0.0": {
         "dependencies": {
-          "Backups.Adapters.Infrastructure": "1.0.0",
+          "Backups.Core": "1.0.0",
+          "Backups.Infrastructure.Compression": "1.0.0",
+          "Backups.Infrastructure.Network": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "xunit": "2.9.3"
         },
@@ -331,31 +333,31 @@
           }
         }
       },
-      "Backups.Adapters.Infrastructure/1.0.0": {
-        "dependencies": {
-          "Backups.Ports": "1.0.0"
-        },
+      "Backups.Core/1.0.0": {
         "runtime": {
-          "Backups.Adapters.Infrastructure.dll": {
+          "Backups.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Backups.Domain/1.0.0": {
+      "Backups.Infrastructure.Compression/1.0.0": {
+        "dependencies": {
+          "Backups.Core": "1.0.0"
+        },
         "runtime": {
-          "Backups.Domain.dll": {
+          "Backups.Infrastructure.Compression.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Backups.Ports/1.0.0": {
+      "Backups.Infrastructure.Network/1.0.0": {
         "dependencies": {
-          "Backups.Domain": "1.0.0"
+          "Backups.Core": "1.0.0"
         },
         "runtime": {
-          "Backups.Ports.dll": {
+          "Backups.Infrastructure.Network.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -446,17 +448,17 @@
       "path": "xunit.extensibility.execution/2.9.3",
       "hashPath": "xunit.extensibility.execution.2.9.3.nupkg.sha512"
     },
-    "Backups.Adapters.Infrastructure/1.0.0": {
+    "Backups.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Backups.Domain/1.0.0": {
+    "Backups.Infrastructure.Compression/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Backups.Ports/1.0.0": {
+    "Backups.Infrastructure.Network/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

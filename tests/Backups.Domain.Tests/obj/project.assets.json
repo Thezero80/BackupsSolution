@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "coverlet.collector/6.0.4": {
@@ -285,6 +285,53 @@
           "build/net8.0/Microsoft.TestPlatform.TestHost.targets": {}
         }
       },
+      "Mono.Cecil/0.11.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
+          }
+        }
+      },
+      "NetArchTest.Rules/1.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/NetArchTest.Rules.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NetArchTest.Rules.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -394,14 +441,14 @@
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Backups.Domain/1.0.0": {
+      "Backups.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "compile": {
-          "bin/placeholder/Backups.Domain.dll": {}
+          "bin/placeholder/Backups.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Backups.Domain.dll": {}
+          "bin/placeholder/Backups.Core.dll": {}
         }
       }
     }
@@ -744,6 +791,47 @@
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
+    "Mono.Cecil/0.11.3": {
+      "sha512": "DNYE+io5XfEE8+E+5padThTPHJARJHbz1mhbhMPNrrWGKVKKqj/KEeLvbawAmbIcT73NuxLV7itHZaYCZcVWGg==",
+      "type": "package",
+      "path": "mono.cecil/0.11.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Mdb.pdb",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.pdb",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.Rocks.pdb",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.pdb",
+        "lib/netstandard2.0/Mono.Cecil.dll",
+        "lib/netstandard2.0/Mono.Cecil.pdb",
+        "mono.cecil.0.11.3.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    },
+    "NetArchTest.Rules/1.3.2": {
+      "sha512": "puPyNXkwJq8/UwXhHV8NrzNzkQl4IxEbcP+3PU0xLRiOedsVpaSdpwHhvOZfI0VwTcRvawCNxYQcSRbD4RUg4w==",
+      "type": "package",
+      "path": "netarchtest.rules/1.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bm-nuget-icon.png",
+        "lib/netstandard2.0/NetArchTest.Rules.dll",
+        "lib/netstandard2.0/NetArchTest.Rules.xml",
+        "netarchtest.rules.1.3.2.nupkg.sha512",
+        "netarchtest.rules.nuspec"
+      ]
+    },
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -914,35 +1002,36 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Backups.Domain/1.0.0": {
+    "Backups.Core/1.0.0": {
       "type": "project",
-      "path": "../../src/Backups.Domain/Backups.Domain.csproj",
-      "msbuildProject": "../../src/Backups.Domain/Backups.Domain.csproj"
+      "path": "../../src/Backups.Core/Backups.Core.csproj",
+      "msbuildProject": "../../src/Backups.Core/Backups.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Backups.Domain >= 1.0.0",
+      "Backups.Core >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
+      "NetArchTest.Rules >= 1.3.2",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 3.1.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hubel\\.nuget\\packages\\": {}
+    "C:\\Users\\julia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj",
+      "projectUniqueName": "E:\\base\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj",
       "projectName": "Backups.Domain.Tests",
-      "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj",
-      "packagesPath": "C:\\Users\\Hubel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\tests\\Backups.Domain.Tests\\obj\\",
+      "projectPath": "E:\\base\\BackupsSolution\\tests\\Backups.Domain.Tests\\Backups.Domain.Tests.csproj",
+      "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+      "outputPath": "E:\\base\\BackupsSolution\\tests\\Backups.Domain.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hubel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -954,11 +1043,10 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj": {
-              "projectPath": "C:\\Users\\Hubel\\source\\repos\\BackupsSolution\\src\\Backups.Domain\\Backups.Domain.csproj"
+            "E:\\base\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj": {
+              "projectPath": "E:\\base\\BackupsSolution\\src\\Backups.Core\\Backups.Core.csproj"
             }
           }
         }
@@ -973,16 +1061,19 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.14.1, )"
+          },
+          "NetArchTest.Rules": {
+            "target": "Package",
+            "version": "[1.3.2, )"
           },
           "coverlet.collector": {
             "target": "Package",
@@ -1013,7 +1104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
