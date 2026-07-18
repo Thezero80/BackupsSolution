@@ -1,6 +1,52 @@
-doc/
-bin/
-obj/
+# ==========================================================
+# BackupsSolution — artefactos de build (todos los grupos)
+# Estructura según README / doc/contratoSDD.yaml
+# ==========================================================
+
+# Grupo 1 — Backups.Core, control-nucleo-test, tests/
+# Grupo 2 — Backups.Infrastructure.Compression
+# Grupo 3 — Backups.Infrastructure.Network
+# Grupo 4 — Backups.UI, Backups.Adapters.UI.WinForms
+# Esqueletos — Backups.Domain, Backups.Ports, Backups.Adapters.Infrastructure
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
+.vs/
 *.user
 *.suo
-.vs/
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.nupkg.metadata
+project.lock.json
+project.fileListAbsolute.txt
+**/packages/*
+!**/packages/build/
+
+# Resultados de pruebas (control-nucleo-test, tests/*.Tests)
+*.trx
+TestResults/
+
+# Documentación generada localmente (no versionada según README)
+doc/
+
+# Configuración de destinos con credenciales reales
+# (destinos.json de ejemplo SÍ se versiona, pero no una copia local con secretos)
+src/Backups.Infrastructure.Network/destinos.local.json
+
+# Log físico de control generado en runtime (Grupo 1)
+control_backups.json
+control-nucleo-test/control_backups.json
+
+# ReSharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+# macOS / editores
+.DS_Store
+*.swp
